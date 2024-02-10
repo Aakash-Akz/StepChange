@@ -7,10 +7,8 @@
 
 body {
   font-family: "Bellefair", serif;
-  background: linear-gradient(
-      rgba(255, 255, 255, 0.6),
-      rgba(255, 255, 255, 0.6)
-    ),
+  background: linear-gradient(rgba(255, 255, 255, 0.6),
+      rgba(255, 255, 255, 0.6)),
     url("https://uploads-ssl.webflow.com/61d9e1a6c3c2632cede910f7/61f7247a38898620c31290dd_DP_hp-footer_187387192_L.jpg");
 }
 
@@ -164,8 +162,8 @@ footer {
   transition: 0.3s;
 }
 
-.input-box input:focus ~ label,
-.input-box input:valid ~ label {
+.input-box input:focus~label,
+.input-box input:valid~label {
   top: -5px;
 }
 
@@ -200,6 +198,7 @@ footer {
 .thanks {
   justify-content: center;
   align-items: center;
+  text-align: center;
   font-family: "Bellefair", serif;
   font-size: 3em;
 }

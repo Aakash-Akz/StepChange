@@ -25,7 +25,7 @@ const Thanks = () => {
         </div>
       </header>
       <main>
-        <p>Thank you for your valuable response!</p>
+        <p className="thanks">Thank you for your valuable response!</p>
       </main>
       <footer>
         <div className="back">
