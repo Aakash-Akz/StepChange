@@ -29,7 +29,10 @@ const Form1 = () => {
   const handleSubmit = async (event) => {
     event.preventDefault();
     try {
-      const res = await axios.post("http://localhost:3000/api/form1", data);
+      const res = await axios.post(
+        "https://step-change.onrender.com/api/form1",
+        data
+      );
       console.log(res.data);
       toast.success("Response Submitted Successfully");
     } catch (error) {
