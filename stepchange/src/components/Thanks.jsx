@@ -28,18 +28,18 @@ const Thanks = () => {
       </header>
       <main>
         <p className="thanks">Thank you for your valuable response!</p>
-        <div className="qrs">
-          <div className="qr1">
-            <h2>Visit our Website</h2>
+        <div className="qrs ">
+          <div className="qr1 flex flex-col items-center justify-center">
+            <h2 className="text-[24px] font-bold">Visit our Website</h2>
             <p>SCAN ME</p>
             <img src={qr1} alt="SCscan" width={200} height={200} />
             <p>STEP CHANGE INNOVATIONS</p>
           </div>
-          <div className="qr2">
-            <h2>Visit our Website</h2>
+          <div className="qr2 flex flex-col items-center justify-center">
+            <h2 className="text-[24px] font-bold">Visit our Website</h2>
             <p>SCAN ME</p>
             <img src={qr2} alt="VNscan" width={200} height={200} />
-            <p>Vitae Nexus</p>
+            <p>VITAE NEXUS</p>
           </div>
         </div>
       </main>
