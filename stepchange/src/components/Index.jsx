@@ -16,13 +16,13 @@ const Index = () => {
       </header>
       <main>
         <div className="tagline">
-          <p>Interested in Collaboration with Step Change?</p>
+          <p>Inviting you to Collaborate with Step Change</p>
         </div>
         <center>
           <div className="clickables">
             <Link to={"/form1"} style={{ textDecoration: "none" }}>
               <div className="collab1">
-                <a href="form1.html">Collaborate Now!</a>
+                <a href="form1.html">Join us Now!</a>
               </div>
             </Link>
             <Link to={"/form2"} style={{ textDecoration: "none" }}>

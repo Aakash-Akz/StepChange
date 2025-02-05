@@ -1,6 +1,8 @@
 import "./style.css";
 import logo from "../assets/Images/SPlogo.png";
 import logo1 from "../assets/Images/VItas Nexus Logo-023.png";
+import qr1 from "../assets/Images/stepChange.svg";
+import qr2 from "../assets/Images/vitaeNexus.svg";
 import { useNavigate } from "react-router-dom";
 import { useEffect } from "react";
 
@@ -26,6 +28,20 @@ const Thanks = () => {
       </header>
       <main>
         <p className="thanks">Thank you for your valuable response!</p>
+        <div className="qrs">
+          <div className="qr1">
+            <h2>Visit our Website</h2>
+            <p>SCAN ME</p>
+            <img src={qr1} alt="SCscan" width={200} height={200} />
+            <p>STEP CHANGE INNOVATIONS</p>
+          </div>
+          <div className="qr2">
+            <h2>Visit our Website</h2>
+            <p>SCAN ME</p>
+            <img src={qr2} alt="VNscan" width={200} height={200} />
+            <p>Vitae Nexus</p>
+          </div>
+        </div>
       </main>
       <footer>
         <div className="back">
