@@ -6,7 +6,7 @@ const connectDB = require('./config/db');
 
 app.use(express.json());
 
-const PORT = 3000;
+const PORT = 3001;
 
 // Other middleware and routes...
 app.use(cors());
@@ -15,5 +15,5 @@ connectDB();
 app.use("/api", apiRoutes);
 
 app.listen(PORT, () => {
-  console.log("Server is running on port 3000");
+  console.log("Server is running on port 3001");
 });
