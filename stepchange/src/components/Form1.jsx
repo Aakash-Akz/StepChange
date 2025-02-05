@@ -67,7 +67,8 @@ const Form1 = () => {
         </div>
       </header>
       <main>
-        <div className="container-form1">
+        <div className="container-form1 flex flex-col">
+          <h2 className="text-[24px] font-bold">Join Us Now!</h2>
           <div className="wrapper">
             <div className="form-box info">
               <form onSubmit={handleSubmit} method="POST">

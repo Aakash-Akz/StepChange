@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 * {
   margin: 0;
   padding: 0;
@@ -37,10 +39,10 @@ header {
 .collab2,
 .explore {
   position: relative;
-  height: 240px;
-  width: 240px;
+  height: 250px;
+  width: 250px;
   font-family: "Bellefair", serif;
-  font-size: 3em;
+  font-size: 48px;
   color: black;
   border: 4px solid rgba(255, 255, 255, 0.433);
   border-radius: 20px;
@@ -51,6 +53,8 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 
 .collab1 a,

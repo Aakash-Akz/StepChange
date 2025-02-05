@@ -22,7 +22,7 @@ const Index = () => {
           <div className="clickables">
             <Link to={"/form1"} style={{ textDecoration: "none" }}>
               <div className="collab1">
-                <a href="form1.html">Join us Now!</a>
+                <a href="/Form1">Join us Now!</a>
               </div>
             </Link>
             <Link to={"/form2"} style={{ textDecoration: "none" }}>
