@@ -30,7 +30,7 @@ const Form1 = () => {
     event.preventDefault();
     try {
       const res = await axios.post(
-        "https://step-change.onrender.com/api/form1",
+        "https://step-change.vercel.app/api/form1",
         data
       );
       console.log(res.data);
